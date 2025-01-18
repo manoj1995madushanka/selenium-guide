@@ -15,7 +15,7 @@ public class AutoComplete {
                 "D:\\course\\selenium\\selenium-guide\\src\\main\\resources\\chromedriver\\chromedriver.exe"
         );
         WebDriver driver = new ChromeDriver();
-        driver.get("https://formy-project.herokuapp.com/keypress");
+        driver.get("https://formy-project.herokuapp.com/autocomplete");
 
         WebElement autocomplete = driver.findElement(By.id("autocomplete"));
         autocomplete.sendKeys("1555 Park Blvd, Palo Alto, CA");
